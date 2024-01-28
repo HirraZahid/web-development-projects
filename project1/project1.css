@@ -1,0 +1,137 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+    margin: 0;
+    padding: 0;
+    
+
+
+}
+
+body{
+  
+    /* background-image: linear-gradient(#2E3192,#1BFFFF); */
+    background-image: url("plate.jpg");
+    background-repeat: no-repeat;
+    background-position: center right;
+
+
+}
+
+
+html{
+    /* font-size: 62.5%; */
+    overflow-x: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem ;
+}
+
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 20px 0px; */
+    padding: 20px 70px 20px 70px;
+    /* padding-left: 70px;
+    padding-right: 70px; */
+    border: 10px hidden white;
+    
+    /* box-shadow: 10px 10px 8px whitesmoke; */
+    background-color:burlywood; 
+    position: relative;
+}
+
+.logo{
+
+    font-size: 1.5rem;
+    color: black;
+
+   
+}
+
+.fa-utensils{
+
+    color: green;
+
+}
+.home{
+  
+    border: 0.5px;
+    background-color: green;
+    color: white;
+    padding:10px;
+    border-radius: 7%;
+
+}
+
+.home-sub{
+    border: 0.5px;
+    padding: 10px;
+    background-color:white;
+    color:black;
+    padding:10px
+
+
+}
+.home-sub:hover{
+    border: 0.5px;
+    background-color: green;
+    color: white;
+    padding:10px;
+    border-radius: 7%;
+
+
+}
+
+.icons{
+    border: 5px;
+    border-radius:50%;
+    color: black;
+    padding: 10px;
+    background-color: gainsboro;
+
+}
+.icons:hover{
+    color: white;
+    background-color: green;
+    border-radius:50%;
+    padding: 10px;
+    translate: rotate(360deg);
+}
+
+.x1{
+ position: absolute;
+ padding-top: 30vh;
+ padding-left: 80vh;
+ font-size: xx-large;
+ font-weight: 700;
+ color: black;
+
+}
+.x1>h1{
+
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 900;
+    
+}
+footer{
+
+    position: absolute;
+    padding-top: 75vh;
+    padding-left: 170vh;
+    font-weight: 400;
+    color:black;
+
+}
