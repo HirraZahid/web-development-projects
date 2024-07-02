@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#Login {
+    
+    width: 100vw;
+    height: 100vh;
+    
+    position: relative;
+}
+
+.inner-div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 50, 0.6); /* Darker semi-transparent background */
+    border-radius: 10px;
+}
+
+.inner-in-div {
+    width: 30vw;
+    height: 60vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 50, 0.7); /* Darker semi-transparent background color */
+    backdrop-filter: blur(10px); /* Adjust the blur intensity */
+    border-radius: 10px;
+    padding: 2vw;
+    color: white; /* Text color */
+}
+
+.form-div {
+    margin-bottom: 1vw;
+}
+
+.form-div label {
+    display: block;
+    margin-bottom: 0.8vw;
+    margin-top: 0.5vw;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white; /* Text color for labels */
+}
+
+.form1 {
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1vw;
+    font-size: 2rem;
+    color: white; /* Text color for h1 */
+}
+
+.form-div input[type="email"],
+.form-div input[type="password"] {
+    width: 20vw;
+    height: 2.5vw;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5vw;
+}
+
+.form-div input[type="submit"] {
+    width: 20vw;
+    height: 3vw;
+    background-color: #315791d6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1vw;
+    font-size: 1.2rem;
+}
+
+.form-div input[type="submit"]:hover {
+    background-color: #032250;
+}
